@@ -103,7 +103,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>499.500000:170.000000</string>
+				<string>309.000000:170.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -266,7 +266,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>499.500000:330.000000</string>
+				<string>309.000000:330.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -288,22 +288,14 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>2.0.3</string>
+				<string>1</string>
 				<key>AMApplication</key>
 				<array>
-					<string>Automator</string>
+					<string>不明</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>COMMAND_STRING</key>
-					<dict/>
-					<key>CheckedForUserDefaultShell</key>
-					<dict/>
-					<key>inputMethod</key>
-					<dict/>
-					<key>shell</key>
-					<dict/>
-					<key>source</key>
+					<key>suffix</key>
 					<dict/>
 				</dict>
 				<key>AMProvides</key>
@@ -315,138 +307,71 @@
 						<string>com.apple.cocoa.string</string>
 					</array>
 				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<string>/Users/taku.omi/Library/Automator/FCPX Audio Role Append.action</string>
 				<key>ActionName</key>
-				<string>シェルスクリプトを実行</string>
+				<string>FCPX Audio Role Append</string>
 				<key>ActionParameters</key>
 				<dict>
-					<key>COMMAND_STRING</key>
-					<string>EXE_PATH="${HOME}/Library/Workflows/Applications/Folder Actions/fcpx-audio-role-append.workflow/Contents/Resources/fcpx-audio-role-append"
-ROLE_NAME="audiorole"
-PREFIX=""
-SUFFIX="-bwf"
-
-for f in "$@"
-do
-	"${EXE_PATH}" -i "$f" -t "${ROLE_NAME}" -o "${PREFIX}${f%.wav}${SUFFIX}.wav"
-done
-</string>
-					<key>CheckedForUserDefaultShell</key>
-					<true/>
-					<key>inputMethod</key>
-					<integer>1</integer>
-					<key>shell</key>
-					<string>/bin/zsh</string>
-					<key>source</key>
-					<string></string>
+					<key>audioRoleName</key>
+					<string>vc-reim</string>
+					<key>suffix</key>
+					<string>-bwf</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.RunShellScript</string>
+				<string>jp.nanasi.FCPX-Audio-Role-Append</string>
 				<key>CFBundleVersion</key>
-				<string>2.0.3</string>
+				<string>1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
 				<array>
+					<string>AMCategoryMovies</string>
+					<string>AMCategoryMusic</string>
 					<string>AMCategoryUtilities</string>
 				</array>
 				<key>Class Name</key>
-				<string>RunShellScriptAction</string>
+				<string>AMShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>5B241C9C-4B30-4143-958E-04ED643A9F94</string>
+				<string>98D3726A-29EE-4059-96C9-934BD7B8B25D</string>
 				<key>Keywords</key>
-				<array>
-					<string>シェル</string>
-					<string>スクリプト</string>
-					<string>コマンド</string>
-					<string>実行</string>
-					<string>UNIX</string>
-				</array>
+				<array/>
 				<key>OutputUUID</key>
-				<string>4B4EE48C-4ED5-4C3F-97A4-5E2B52BF8830</string>
+				<string>A8259F97-E314-44B5-86DC-F4F6FECBAA89</string>
 				<key>UUID</key>
-				<string>48C661F3-6E53-4009-B51E-C8DD01EFAF3A</string>
+				<string>BCD12009-8FDC-4D60-9B8C-20CE021BED57</string>
 				<key>UnlocalizedApplications</key>
 				<array>
-					<string>Automator</string>
+					<string>(* Primary Application used by this action goes here. *)</string>
 				</array>
 				<key>arguments</key>
 				<dict>
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<integer>0</integer>
+						<string>-bwf</string>
 						<key>name</key>
-						<string>inputMethod</string>
+						<string>suffix</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
 						<string>0</string>
 						<key>uuid</key>
 						<string>0</string>
-					</dict>
-					<key>1</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>source</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>1</string>
-					</dict>
-					<key>2</key>
-					<dict>
-						<key>default value</key>
-						<false/>
-						<key>name</key>
-						<string>CheckedForUserDefaultShell</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>2</string>
-					</dict>
-					<key>3</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>COMMAND_STRING</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>3</string>
-					</dict>
-					<key>4</key>
-					<dict>
-						<key>default value</key>
-						<string>/bin/sh</string>
-						<key>name</key>
-						<string>shell</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>4</string>
 					</dict>
 				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>499.500000:513.000000</string>
+				<string>309.000000:546.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
+				<string>/Users/taku.omi/Library/Automator/FCPX Audio Role Append.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -454,25 +379,23 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>5D6195A2-4419-4533-A66C-D96CE10114DF</key>
+		<key>7C36857E-5B12-4FB0-AB50-094316C0EDDD</key>
 		<dict>
 			<key>from</key>
 			<string>D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020 - D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020</string>
 			<key>to</key>
 			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
 		</dict>
-		<key>CD0811EF-55D5-463B-B125-85BBEACBD6BF</key>
+		<key>CECB77B8-5EE6-4DF9-B0CF-C8EE863712B2</key>
 		<dict>
 			<key>from</key>
 			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
 			<key>to</key>
-			<string>48C661F3-6E53-4009-B51E-C8DD01EFAF3A - 48C661F3-6E53-4009-B51E-C8DD01EFAF3A</string>
+			<string>BCD12009-8FDC-4D60-9B8C-20CE021BED57 - BCD12009-8FDC-4D60-9B8C-20CE021BED57</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
-		<key>folderActionFolderPath</key>
-		<string>~/Desktop/fcpx-audio-role-workflow/test</string>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.folderAction</string>
 	</dict>
