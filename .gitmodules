@@ -1,0 +1,3 @@
+[submodule "fcpx-audio-role-encoder"]
+	path = fcpx-audio-role-encoder
+	url = git@github.com:taku-o/fcpx-audio-role-encoder.git
