@@ -70,18 +70,16 @@
 				<key>Class Name</key>
 				<string>GetFolderContents</string>
 				<key>InputUUID</key>
-				<string>4E8AD650-DE56-4925-A846-DFFD1D727570</string>
+				<string>951FCCFF-E805-4CF5-AF6B-FBA80D4B3293</string>
 				<key>Keywords</key>
 				<array>
 					<string>ファイル</string>
 					<string>フォルダ</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>0F20EFA3-D55F-4690-881F-3809C5AB8B7B</string>
-				<key>ShowWhenRun</key>
-				<false/>
+				<string>96366CBC-E87A-40FE-A347-0E9135BA4EC0</string>
 				<key>UUID</key>
-				<string>C20C6B15-1753-444B-9309-BCF03241C6DE</string>
+				<string>D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -105,7 +103,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:170.000000</string>
+				<string>492.000000:170.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -164,56 +162,49 @@
 					<string>com.apple.cocoa.path</string>
 					<key>predicate</key>
 					<data>
-					YnBsaXN0MDDUAQIDBAUGgYJYJHZlcnNpb25Y
+					YnBsaXN0MDDUAQIDBAUGY2RYJHZlcnNpb25Y
 					JG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGG
-					oK8QHwcIDxUdJygqMTU6Oz5CRktMT1VZXWJn
-					a25vcnN5fH5VJG51bGzTCQoLDA0OXxAXTlND
-					b21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1
-					YnByZWRpY2F0ZXNWJGNsYXNzEAGAAoAe0hAL
-					ERRaTlMub2JqZWN0c6ISE4ADgBSAHdQLFhcY
-					GRobHF8QEU5TUmlnaHRFeHByZXNzaW9uXxAQ
-					TlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGlj
-					YXRlT3BlcmF0b3KAE4AOgASAEdUeHyAhCyIj
-					JCUmWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFt
-					ZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1
-					bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5
-					OtIgCwwpgAfSKywtLlokY2xhc3NuYW1lWCRj
-					bGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMt
-					LzBcTlNFeHByZXNzaW9uWE5TT2JqZWN00hAL
-					MjShM4AJgAzTCyA2Nzg5WU5TS2V5UGF0aIAL
-					EAqAClRuYW1l0issPD1fEBxOU0tleVBhdGhT
-					cGVjaWZpZXJFeHByZXNzaW9uozwvMNIrLD9A
-					Xk5TTXV0YWJsZUFycmF5oz9BMFdOU0FycmF5
-					0issQ0RfEBNOU0tleVBhdGhFeHByZXNzaW9u
-					pENFLzBfEBROU0Z1bmN0aW9uRXhwcmVzc2lv
-					btNHIAtISUpfEA9OU0NvbnN0YW50VmFsdWWA
-					DxAAgBBQ0issTU5fEBlOU0NvbnN0YW50VmFs
-					dWVFeHByZXNzaW9uo00vMNQLUFFSU0kkVFpO
-					U01vZGlmaWVyV05TRmxhZ3NeTlNPcGVyYXRv
-					clR5cGWAEhBj0issVldfEBVOU0luUHJlZGlj
-					YXRlT3BlcmF0b3KjVlgwXxATTlNQcmVkaWNh
-					dGVPcGVyYXRvctIrLFpbXxAVTlNDb21wYXJp
-					c29uUHJlZGljYXRlo1pcMFtOU1ByZWRpY2F0
-					ZdQLFhcYGV9gYYATgBmAFYAb1R4fICELIiMk
-					ZSaABoAFgBaADdIQC2g0oWmAF4AM0wsgNjc4
-					bYALgBhdZmlsZUV4dGVuc2lvbtNHIAtwSUqA
-					GoAQU3dhdtULUHR1UnZJdyR4WE5TTmVnYXRl
-					WU5TT3B0aW9uc4AcCBAE0issentfEBtOU0Vx
-					dWFsaXR5UHJlZGljYXRlT3BlcmF0b3Kjelgw
-					0issQX2iQTDSKyx/gF8QE05TQ29tcG91bmRQ
-					cmVkaWNhdGWjf1wwXxAPTlNLZXllZEFyY2hp
-					dmVy0YOEVHJvb3SAAQAIABEAGgAjAC0AMgA3
-					AFkAXwBmAIAAkgCZAJsAnQCfAKQArwCyALQA
-					tgC4AMEA1QDoAP4BAAECAQQBBgERARsBKgE9
-					AUkBSwFNAU8BUQFTAWABZQFnAWwBdwGAAZMB
-					lwGkAa0BsgG0AbYBuAG/AckBywHNAc8B1AHZ
-					AfgB/AIBAhACFAIcAiECNwI8AlMCWgJsAm4C
-					cAJyAnMCeAKUApgCoQKsArQCwwLFAscCzALk
-					AugC/gMDAxsDHwMrAzQDNgM4AzoDPANHA0kD
-					SwNNA08DVANWA1gDWgNhA2MDZQNzA3oDfAN+
-					A4IDjQOWA6ADogOjA6UDqgPIA8wD0QPUA9kD
-					7wPzBAUECAQNAAAAAAAAAgEAAAAAAAAAhQAA
-					AAAAAAAAAAAAAAAABA8=
+					oK8QFgcIDxQcJicpMDQ5Oj1BRUpLTlZaXmBV
+					JG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFBy
+					ZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0
+					ZXNWJGNsYXNzEAGAAoAV0hALERNaTlMub2Jq
+					ZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmln
+					aHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVz
+					c2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KA
+					E4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFu
+					ZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVz
+					c2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOA
+					CIANXHZhbHVlRm9yS2V5OtIfCwwogAfSKiss
+					LVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNT
+					ZWxmRXhwcmVzc2lvbqMsLi9cTlNFeHByZXNz
+					aW9uWE5TT2JqZWN00hALMTOhMoAJgAzTCx81
+					Njc4WU5TS2V5UGF0aIALEAqACl1maWxlRXh0
+					ZW5zaW9u0iorOzxfEBxOU0tleVBhdGhTcGVj
+					aWZpZXJFeHByZXNzaW9uozsuL9IqKz4/Xk5T
+					TXV0YWJsZUFycmF5oz5AL1dOU0FycmF50ior
+					QkNfEBNOU0tleVBhdGhFeHByZXNzaW9upEJE
+					Li9fEBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNG
+					HwtHSElfEA9OU0NvbnN0YW50VmFsdWWADxAA
+					gBBTd2F20iorTE1fEBlOU0NvbnN0YW50VmFs
+					dWVFeHByZXNzaW9uo0wuL9ULT1BRUlNIVCNV
+					Wk5TTW9kaWZpZXJYTlNOZWdhdGVZTlNPcHRp
+					b25zXk5TT3BlcmF0b3JUeXBlgBIIEATSKitX
+					WF8QG05TRXF1YWxpdHlQcmVkaWNhdGVPcGVy
+					YXRvcqNXWS9fEBNOU1ByZWRpY2F0ZU9wZXJh
+					dG9y0iorW1xfEBVOU0NvbXBhcmlzb25QcmVk
+					aWNhdGWjW10vW05TUHJlZGljYXRl0iorQF+i
+					QC/SKithYl8QE05TQ29tcG91bmRQcmVkaWNh
+					dGWjYV0vXxAPTlNLZXllZEFyY2hpdmVy0WVm
+					VHJvb3SAAQAIABEAGgAjAC0AMgA3AFAAVgBd
+					AHcAiQCQAJIAlACWAJsApgCoAKoArAC1AMkA
+					3ADyAPQA9gD4APoBBQEPAR4BMQE9AT8BQQFD
+					AUUBRwFUAVkBWwFgAWsBdAGHAYsBmAGhAaYB
+					qAGqAawBswG9Ab8BwQHDAdEB1gH1AfkB/gIN
+					AhECGQIeAjQCOQJQAlcCaQJrAm0CbwJzAngC
+					lAKYAqMCrgK3AsEC0ALSAtMC1QLaAvgC/AMS
+					AxcDLwMzAz8DRANHA0wDYgNmA3gDewOAAAAA
+					AAAAAgEAAAAAAAAAZwAAAAAAAAAAAAAAAAAA
+					A4I=
 					</data>
 				</dict>
 				<key>BundleIdentifier</key>
@@ -231,13 +222,13 @@
 				<key>Class Name</key>
 				<string>Filter_Finder_Items_2</string>
 				<key>InputUUID</key>
-				<string>15471980-7800-485C-9E1A-F2FBC25555CE</string>
+				<string>84B9ADEA-CF8D-4DA6-965A-68CDB2F9DC19</string>
 				<key>Keywords</key>
 				<array/>
 				<key>OutputUUID</key>
-				<string>592C93D7-3EE9-4764-BD50-33E15BA4CD32</string>
+				<string>55BB8FE7-3E97-4DF0-A633-F1568299E31E</string>
 				<key>UUID</key>
-				<string>9924A934-0022-47FD-BD22-241671A6F314</string>
+				<string>263DCBBD-454F-4570-9794-7920D269F64C</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Finder</string>
@@ -275,7 +266,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:355.000000</string>
+				<string>492.000000:330.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -331,9 +322,14 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>for f in "$@"
+					<string>EXE_PATH=""
+ROLE_NAME="audiorole"
+PREFIX=""
+SUFFIX="-bwf"
+
+for f in "$@"
 do
-	"$EXE_PATH" -i "$f" -t "$ROLE_NAME" -o "${f%.wav}-bwf.wav"
+	"${EXE_PATH}" -i "$f" -t "${ROLE_NAME}" -o "${PREFIX}${f%.wav}${SUFFIX}.wav"
 done
 </string>
 					<key>CheckedForUserDefaultShell</key>
@@ -360,7 +356,7 @@ done
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>CE69BAE0-D84B-4474-AC5F-10849BC80DB1</string>
+				<string>5B241C9C-4B30-4143-958E-04ED643A9F94</string>
 				<key>Keywords</key>
 				<array>
 					<string>シェル</string>
@@ -370,9 +366,9 @@ done
 					<string>UNIX</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>C3527170-DE43-4333-8566-711DD7E7AB65</string>
+				<string>4B4EE48C-4ED5-4C3F-97A4-5E2B52BF8830</string>
 				<key>UUID</key>
-				<string>C3234806-2C7E-4734-8594-908C6BED6749</string>
+				<string>48C661F3-6E53-4009-B51E-C8DD01EFAF3A</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -448,7 +444,7 @@ done
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:538.000000</string>
+				<string>492.000000:565.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -458,48 +454,21 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>12BC7EF2-AFA3-45DA-8840-58C957FD66FA</key>
+		<key>024B921C-97B5-422A-ABDA-DD142569A97D</key>
 		<dict>
 			<key>from</key>
-			<string>9924A934-0022-47FD-BD22-241671A6F314 - 9924A934-0022-47FD-BD22-241671A6F314</string>
+			<string>D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020 - D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020</string>
 			<key>to</key>
-			<string>C3234806-2C7E-4734-8594-908C6BED6749 - C3234806-2C7E-4734-8594-908C6BED6749</string>
+			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
 		</dict>
-		<key>43E0F94D-B561-4A7C-8780-675B90526D10</key>
+		<key>3B23DD3F-17F3-41DC-A23D-FA2FA1DD292A</key>
 		<dict>
 			<key>from</key>
-			<string>C20C6B15-1753-444B-9309-BCF03241C6DE - C20C6B15-1753-444B-9309-BCF03241C6DE</string>
+			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
 			<key>to</key>
-			<string>9924A934-0022-47FD-BD22-241671A6F314 - 9924A934-0022-47FD-BD22-241671A6F314</string>
+			<string>48C661F3-6E53-4009-B51E-C8DD01EFAF3A - 48C661F3-6E53-4009-B51E-C8DD01EFAF3A</string>
 		</dict>
 	</dict>
-	<key>variables</key>
-	<array>
-		<dict>
-			<key>UUID</key>
-			<string>E2613437-DF19-4850-95D5-16BB6D759330</string>
-			<key>identifier</key>
-			<string>com.apple.Automator.Variable.Text</string>
-			<key>name</key>
-			<string>ROLE_NAME</string>
-			<key>value</key>
-			<array>
-				<string>tttrack</string>
-			</array>
-		</dict>
-		<dict>
-			<key>UUID</key>
-			<string>254C5549-58FB-4311-A0C8-1E10AF683557</string>
-			<key>identifier</key>
-			<string>com.apple.Automator.Variable.Text</string>
-			<key>name</key>
-			<string>EXE_PATH</string>
-			<key>value</key>
-			<array>
-				<string>/Users/$USER/Dropbox/myukkurivoice/fcpx-audio-role-append</string>
-			</array>
-		</dict>
-	</array>
 	<key>workflowMetaData</key>
 	<dict>
 		<key>workflowTypeIdentifier</key>
