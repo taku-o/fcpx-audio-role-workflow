@@ -103,7 +103,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>492.000000:170.000000</string>
+				<string>309.000000:170.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -266,7 +266,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>492.000000:330.000000</string>
+				<string>309.000000:330.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -322,7 +322,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>EXE_PATH=""
+					<string>EXE_PATH="${HOME}/Library/Workflows/Applications/Folder\ Actions/fcpx-audio-role-append.workflow/Contents/Resources/fcpx-audio-role-append"
 ROLE_NAME="audiorole"
 PREFIX=""
 SUFFIX="-bwf"
@@ -444,7 +444,7 @@ done
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>492.000000:565.000000</string>
+				<string>309.000000:513.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -454,14 +454,14 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>024B921C-97B5-422A-ABDA-DD142569A97D</key>
+		<key>0EE88618-2889-44F7-B43F-A9AE36E022B3</key>
 		<dict>
 			<key>from</key>
 			<string>D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020 - D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020</string>
 			<key>to</key>
 			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
 		</dict>
-		<key>3B23DD3F-17F3-41DC-A23D-FA2FA1DD292A</key>
+		<key>8C9EFFA3-0889-4756-8A5F-E1BF035534F8</key>
 		<dict>
 			<key>from</key>
 			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
@@ -471,6 +471,8 @@ done
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
+		<key>folderActionFolderPath</key>
+		<string>~/Desktop/fcpx-audio-role-workflow/test</string>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.folderAction</string>
 	</dict>
