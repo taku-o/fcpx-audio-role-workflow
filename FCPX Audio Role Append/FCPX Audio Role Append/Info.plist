@@ -20,7 +20,11 @@
 	<key>AMCanShowWhenRun</key>
 	<true/>
 	<key>AMCategory</key>
-	<string>AMCategoryUtilities</string>
+	<array>
+		<string>AMCategoryMovies</string>
+		<string>AMCategoryMusic</string>
+		<string>AMCategoryUtilities</string>
+	</array>
 	<key>AMDefaultParameters</key>
 	<dict>
 		<key>suffix</key>
