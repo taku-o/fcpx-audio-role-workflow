@@ -20,7 +20,7 @@
 	<key>AMCanShowWhenRun</key>
 	<true/>
 	<key>AMCategory</key>
-	<string>(* Category of this action goes here. *)</string>
+	<string>AMCategoryUtilities</string>
 	<key>AMDefaultParameters</key>
 	<dict>
 		<key>suffix</key>
@@ -29,23 +29,23 @@
 	<key>AMDescription</key>
 	<dict>
 		<key>AMDAlert</key>
-		<string>(* AMDAlert text goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDInput</key>
-		<string>(* AMDInput text to further explain the types accepted as input goes here. (optional) *)</string>
+		<string>(File) wav file list.</string>
 		<key>AMDNote</key>
-		<string>(* AMDNote text goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDOptions</key>
-		<string>(* AMDOptions text to further explain configuration options in the UI goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDRelatedActions</key>
-		<string>(* AMDRelatedActions bundle ids go here. (optional) *)</string>
+		<string></string>
 		<key>AMDRequires</key>
-		<string>(* AMDRequires text to explain anything outside of Automator required for the action&apos;s operation, e.g. a web page open in Safari, goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDResult</key>
-		<string>(* AMDResult text to further explain the types provided as output goes here. (optional) *)</string>
+		<string>wav files with audio role will be generated.</string>
 		<key>AMDSummary</key>
-		<string>(* AMDSummary text to explain what your action does goes here. *)</string>
+		<string>generate wav file with audio role, for Final Cut Pro X.</string>
 		<key>AMDWebsite</key>
-		<string>(* AMDWebsite URL to additional information or documentation for the action goes here. (optional) *)</string>
+		<string>https://github.com/taku-o/fcpx-audio-role-workflow</string>
 	</dict>
 	<key>AMIconName</key>
 	<string>(* The name of the icon *)</string>

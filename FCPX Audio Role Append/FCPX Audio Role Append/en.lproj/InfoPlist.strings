@@ -4,27 +4,29 @@
 /*  AMCategory localized strings  */
 /* e.g. "Terminal" = "Terminal"; */
 
-AMName = "FCPX Audio Role Append";
+//AMName = "FCPX Audio Role Append";
 
 /* AMDefaultParameters localized values */
 /* e.g. myDefaultIntegerParameter = 0; */
 /* e.g. myDefaultStringParameter = "Default String Value"; */
 
 /* AMDescription localized strings */
-AMDAlert = "(* AMDAlert text goes here. (optional) *)";
-AMDInput = "(* AMDInput text to further explain the types accepted as input goes here. (optional) *)";
-AMDNote = "(* AMDNote text goes here. (optional) *)";
-AMDOptions = "(* AMDOptions text to further explain configuration options in the UI goes here. (optional) *)";
-AMDResult = "(* AMDResult text to further explain the types provided as output goes here. (optional) *)";
-AMDRequires = "(* AMDRequires text to explain anything outside of Automator required for the action's operation, e.g. a web page open in Safari, goes here. (optional) *)";
-AMDSummary = "(* AMDSummary text to explain what your action does goes here. *)";
-AMDWebsite = "(* AMDWebsite URL to additional information or documentation for the action goes here. (optional) *)";
+//AMDSummary = "generate wav file with audio role, for Final Cut Pro X.";
+
+//AMDNote = ""; //"convert wav files to having audio role wav file.";
+//AMDInput = "(File) wav file list.";
+//AMDResult = "wav files with audio role will be generated.";
+//AMDAlert = ""; //"wav file will be overwritten if generated file have same existing file name.";
+//AMDWebsite = https://github.com/taku-o/fcpx-audio-role-workflow;
+//AMDOptions = ""; //"prefix, and suffix is realated to generated wav file name.";
+//AMDRequires = ""; //"audioRoleName is required to generate wav file.";
+//AMDRelatedActions = "";
 
 /* AMKeyword localized strings */
 /* e.g. "Filter" = "Filter"; */
 
 /* AMWarning localized strings */
-ApplyButton = "(* Button label for user to add proposed Action, e.g. Add. *)";
-IgnoreButton = "(* Button label for user not to add proposed Action, e.g. Don't Add. *)";
-Message = "(* Warning message presented to user goes here. *)";
+//ApplyButton = "(* Button label for user to add proposed Action, e.g. Add. *)";
+//IgnoreButton = "(* Button label for user not to add proposed Action, e.g. Don't Add. *)";
+//Message = "(* Warning message presented to user goes here. *)";
 
