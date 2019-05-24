@@ -22,7 +22,10 @@
 	<key>AMCategory</key>
 	<string>(* Category of this action goes here. *)</string>
 	<key>AMDefaultParameters</key>
-	<dict/>
+	<dict>
+		<key>suffix</key>
+		<string>-bwf</string>
+	</dict>
 	<key>AMDescription</key>
 	<dict>
 		<key>AMDAlert</key>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="17G6030" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -25,6 +25,9 @@
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
+                    <connections>
+                        <binding destination="RmC-5P-AAH" name="value" keyPath="selection.prefix" id="DF7-V8-qvE"/>
+                    </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dT8-Lu-oJD">
                     <rect key="frame" x="238" y="94" width="103" height="19"/>
@@ -34,6 +37,9 @@
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
+                    <connections>
+                        <binding destination="RmC-5P-AAH" name="value" keyPath="selection.suffix" id="nbY-Pg-J1Z"/>
+                    </connections>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="13q-VQ-ahU">
                     <rect key="frame" x="18" y="97" width="46" height="14"/>
@@ -52,6 +58,9 @@
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
+                    <connections>
+                        <binding destination="RmC-5P-AAH" name="value" keyPath="selection.audioRoleName" id="2A3-xc-Uqz"/>
+                    </connections>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nsR-Na-8kR">
                     <rect key="frame" x="192" y="97" width="40" height="14"/>
@@ -97,6 +106,11 @@
             <point key="canvasLocation" x="139" y="201"/>
         </customView>
         <objectController id="RmC-5P-AAH" userLabel="Parameters">
+            <declaredKeys>
+                <string>prefix</string>
+                <string>suffix</string>
+                <string>audioRoleName</string>
+            </declaredKeys>
             <connections>
                 <binding destination="-2" name="contentObject" keyPath="parameters" id="jv6-AD-hYs"/>
             </connections>
