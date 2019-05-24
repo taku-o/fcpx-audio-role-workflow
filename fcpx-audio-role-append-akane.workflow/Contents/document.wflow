@@ -490,7 +490,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>audioRoleName</key>
-					<string>vc-akane</string>
+					<string>voice-akane</string>
 					<key>suffix</key>
 					<string>-bwf</string>
 				</dict>
@@ -551,21 +551,21 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>6F2EEBEE-110A-497A-B368-3FD4076DE3F5</key>
-		<dict>
-			<key>from</key>
-			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
-			<key>to</key>
-			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
-		</dict>
-		<key>E70B0CC1-C1B2-49BC-B2EC-E6B825BA9B84</key>
+		<key>210FE0B6-32AE-4FC9-8C8D-609AE2A9036E</key>
 		<dict>
 			<key>from</key>
 			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
 			<key>to</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
 		</dict>
-		<key>EDCFE7E7-1CD7-41F8-A954-00EE5599E2DD</key>
+		<key>561B2A5B-ADB9-4768-8C3F-1CCD3C0145FE</key>
+		<dict>
+			<key>from</key>
+			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
+			<key>to</key>
+			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
+		</dict>
+		<key>7444D7FE-CA59-41DC-97C5-DA5932B70B65</key>
 		<dict>
 			<key>from</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>

@@ -490,7 +490,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>audioRoleName</key>
-					<string>vc-zunko</string>
+					<string>voice-zunko</string>
 					<key>suffix</key>
 					<string>-bwf</string>
 				</dict>
@@ -551,26 +551,26 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>A9066B59-35E5-41F8-85A1-9877477D10FD</key>
-		<dict>
-			<key>from</key>
-			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
-			<key>to</key>
-			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
-		</dict>
-		<key>D06477CC-8695-4B66-9F1F-75C8E24E52AD</key>
+		<key>A7E5B124-B955-4BB7-A98D-3D9805E9E11C</key>
 		<dict>
 			<key>from</key>
 			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
 			<key>to</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
 		</dict>
-		<key>E19280AD-C02D-4802-B03D-1251284E8385</key>
+		<key>B0FD7D7B-71EF-4D84-896C-2050239B2805</key>
 		<dict>
 			<key>from</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
 			<key>to</key>
 			<string>BCD12009-8FDC-4D60-9B8C-20CE021BED57 - BCD12009-8FDC-4D60-9B8C-20CE021BED57</string>
+		</dict>
+		<key>EBD2E40D-412C-411E-A98D-4D68E2156F17</key>
+		<dict>
+			<key>from</key>
+			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
+			<key>to</key>
+			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>

@@ -60,7 +60,7 @@
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
+				<true/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -103,7 +103,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:222.000000</string>
+				<string>309.000000:170.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -275,7 +275,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:587.000000</string>
+				<string>309.000000:355.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -435,12 +435,10 @@
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:927.000000</string>
+				<string>309.000000:515.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -492,7 +490,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>audioRoleName</key>
-					<string>vc-reim</string>
+					<string>voice-reim</string>
 					<key>suffix</key>
 					<string>-bwf</string>
 				</dict>
@@ -543,7 +541,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:1323.000000</string>
+				<string>309.000000:731.000000</string>
 				<key>nibPath</key>
 				<string>/Users/taku-o/Library/Automator/FCPX Audio Role Append.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -553,26 +551,26 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>57519B8F-67D1-4809-B6AF-785A8C28DC04</key>
+		<key>01E8347F-E6CD-4044-99F3-7043E29586FC</key>
 		<dict>
 			<key>from</key>
 			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
 			<key>to</key>
 			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
 		</dict>
-		<key>A9BD1E19-1F10-44E0-ADBE-EB00C644DF59</key>
-		<dict>
-			<key>from</key>
-			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
-			<key>to</key>
-			<string>BCD12009-8FDC-4D60-9B8C-20CE021BED57 - BCD12009-8FDC-4D60-9B8C-20CE021BED57</string>
-		</dict>
-		<key>EB6B76E3-D179-4AA9-976F-2E8DE6C995A7</key>
+		<key>3215986B-ACA3-4330-839C-77E46DA50E27</key>
 		<dict>
 			<key>from</key>
 			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
 			<key>to</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
+		</dict>
+		<key>EE8D5048-F3F0-4246-B0CB-336E5FA0A8C8</key>
+		<dict>
+			<key>from</key>
+			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
+			<key>to</key>
+			<string>BCD12009-8FDC-4D60-9B8C-20CE021BED57 - BCD12009-8FDC-4D60-9B8C-20CE021BED57</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>

@@ -490,7 +490,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>audioRoleName</key>
-					<string>vc-yukari</string>
+					<string>voice-yukari</string>
 					<key>suffix</key>
 					<string>-bwf</string>
 				</dict>
@@ -551,26 +551,26 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>3A472FB7-E981-4CC0-8E1B-6E3CCE6EE56C</key>
+		<key>717D1F84-2172-4749-A7D5-73D726E1488E</key>
+		<dict>
+			<key>from</key>
+			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
+			<key>to</key>
+			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
+		</dict>
+		<key>9C67A030-55B5-49BE-9B5C-2EC79F6B4A70</key>
 		<dict>
 			<key>from</key>
 			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
 			<key>to</key>
 			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
 		</dict>
-		<key>98441183-3F28-45E3-B8B3-3B543C539CE4</key>
+		<key>CE002C6D-CCA6-4C52-B744-A13BF3B9DAA1</key>
 		<dict>
 			<key>from</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
 			<key>to</key>
 			<string>BCD12009-8FDC-4D60-9B8C-20CE021BED57 - BCD12009-8FDC-4D60-9B8C-20CE021BED57</string>
-		</dict>
-		<key>BDCFBEBC-DA04-4260-8772-266005F6DED9</key>
-		<dict>
-			<key>from</key>
-			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
-			<key>to</key>
-			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
