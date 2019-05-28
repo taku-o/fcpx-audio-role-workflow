@@ -10,21 +10,21 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FQDvs1IlR/rPXEkwX/zZI10V8lo=
+			3n3pSxegZ5Mph7m1nM1MH7uX6/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			XEdm6/ch2TOI/GDwZikCvHqfd9USV0TJWeBNHpGRqCI=
+			C9pyWKmzYABDiTJqtjGe6KwmVuSQrFO5Lx14aAGPAlM=
 			</data>
 		</dict>
 		<key>document.wflow</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			zOdfA22/ndaG+JtzKJxVpyJEtOA=
+			tJFdagLXb7y+3bczPMAY0b4kOE4=
 			</data>
 			<key>requirement</key>
-			<string>identifier document and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Taku Omi (Y3J8XHWX77)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier document and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "52QJ97GWTE"</string>
 		</dict>
 	</dict>
 	<key>rules</key>

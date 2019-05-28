@@ -467,8 +467,6 @@
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>audioRoleName</key>
-					<dict/>
 					<key>suffix</key>
 					<dict/>
 				</dict>
@@ -495,7 +493,7 @@
 					<string>-bwf</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>jp.nanasi.FCPX-Audio-Role-Append</string>
+				<string>jp.nanasi.fcpx.automator.FCPX-Audio-Role-Append</string>
 				<key>CFBundleVersion</key>
 				<string>1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -511,13 +509,13 @@
 				<key>Class Name</key>
 				<string>AMShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>98D3726A-29EE-4059-96C9-934BD7B8B25D</string>
+				<string>B20F0C7F-BA0E-4AF2-82F1-9A09038E2CC7</string>
 				<key>Keywords</key>
 				<array/>
 				<key>OutputUUID</key>
-				<string>A8259F97-E314-44B5-86DC-F4F6FECBAA89</string>
+				<string>D7B52B83-F58B-4A16-8253-C031FA4545DA</string>
 				<key>UUID</key>
-				<string>BCD12009-8FDC-4D60-9B8C-20CE021BED57</string>
+				<string>1AC64BF9-CBD3-4B7F-A6D8-92C71701B986</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>(* Primary Application used by this action goes here. *)</string>
@@ -538,6 +536,8 @@
 						<string>0</string>
 					</dict>
 				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -723,33 +723,33 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0A65E2D8-91A1-4D73-B1B8-7DFC11EC6135</key>
+		<key>023012BE-5370-4B62-BF85-5EDCC10BFC47</key>
 		<dict>
 			<key>from</key>
+			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
+			<key>to</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
-			<key>to</key>
-			<string>BCD12009-8FDC-4D60-9B8C-20CE021BED57 - BCD12009-8FDC-4D60-9B8C-20CE021BED57</string>
 		</dict>
-		<key>313A0CA8-9612-4871-A18B-D22D1157F4F4</key>
-		<dict>
-			<key>from</key>
-			<string>BCD12009-8FDC-4D60-9B8C-20CE021BED57 - BCD12009-8FDC-4D60-9B8C-20CE021BED57</string>
-			<key>to</key>
-			<string>4717C5D5-0D2E-4E35-91A4-9DFE832EEF4C - 4717C5D5-0D2E-4E35-91A4-9DFE832EEF4C</string>
-		</dict>
-		<key>3E387D17-FC41-486A-8BB4-37EE01F0E652</key>
+		<key>67DC31A7-35AF-4FBC-B638-CC9419EAD750</key>
 		<dict>
 			<key>from</key>
 			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
 			<key>to</key>
 			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
 		</dict>
-		<key>E3617383-C17E-4DC3-BA46-B16482DE4123</key>
+		<key>7A4B808B-C675-4483-A8B5-068C8464ABF9</key>
 		<dict>
 			<key>from</key>
-			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
-			<key>to</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
+			<key>to</key>
+			<string>1AC64BF9-CBD3-4B7F-A6D8-92C71701B986 - 1AC64BF9-CBD3-4B7F-A6D8-92C71701B986</string>
+		</dict>
+		<key>9A55EEB5-024E-4766-9AC4-7FA7B3F0B5CD</key>
+		<dict>
+			<key>from</key>
+			<string>1AC64BF9-CBD3-4B7F-A6D8-92C71701B986 - 1AC64BF9-CBD3-4B7F-A6D8-92C71701B986</string>
+			<key>to</key>
+			<string>4717C5D5-0D2E-4E35-91A4-9DFE832EEF4C - 4717C5D5-0D2E-4E35-91A4-9DFE832EEF4C</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
