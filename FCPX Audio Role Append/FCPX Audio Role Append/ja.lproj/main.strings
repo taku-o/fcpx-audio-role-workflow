@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "prefix :"; ObjectID = "H4h-a5-M7X"; */
+"H4h-a5-M7X.title" = "prefix :";
+
+/* Class = "NSTextFieldCell"; title = "audio role name :"; ObjectID = "iqq-RU-oxt"; */
+"iqq-RU-oxt.title" = "オーディオロール名 :";
+
+/* Class = "NSTextFieldCell"; title = "generate file name options"; ObjectID = "n4U-KK-9kd"; */
+"n4U-KK-9kd.title" = "ファイル生成オプション";
+
+/* Class = "NSTextFieldCell"; title = "embedding iXML"; ObjectID = "sZn-Jg-O7p"; */
+"sZn-Jg-O7p.title" = "iXMLメタデータ";
+
+/* Class = "NSTextFieldCell"; title = "suffix :"; ObjectID = "vXV-n0-sea"; */
+"vXV-n0-sea.title" = "suffix :";

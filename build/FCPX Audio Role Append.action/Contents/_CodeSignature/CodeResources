@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Base.lproj/main.nib</key>
 		<data>
-		0iRjPBAYkenczJwa3nOe73Sq2Ws=
+		zWGr6vIgSoatt6NraaAFphn7gYk=
 		</data>
 		<key>Resources/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -21,6 +21,24 @@
 		<data>
 		KxwM5xnh0Tqbjf5BpDMtZpSJKgk=
 		</data>
+		<key>Resources/ja.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H+9RysDR62/P9RpEVFqYMvs1c2E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ja.lproj/main.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8EwxyuMFAzZ+oisyzXhbWz/fDN0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Resources/main.command</key>
 		<data>
 		Wr5zYAd69ZYBbZtFoA3e1MWxAeo=
@@ -32,11 +50,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0iRjPBAYkenczJwa3nOe73Sq2Ws=
+			zWGr6vIgSoatt6NraaAFphn7gYk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZwtLLGFu1YoV/t/Bo4KHFbRmkaa0+SYXsI6jhsHuj9s=
+			bHSuIOMXk77Zd0pjQKA+MUUuGMFX8zHJWecMHiAsjxE=
 			</data>
 		</dict>
 		<key>Resources/en.lproj/InfoPlist.strings</key>
@@ -62,6 +80,32 @@
 			<data>
 			ZtT94dh5Aq1cmkugHEtRIqnFVt+pV94mkFznMrUqnX0=
 			</data>
+		</dict>
+		<key>Resources/ja.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H+9RysDR62/P9RpEVFqYMvs1c2E=
+			</data>
+			<key>hash2</key>
+			<data>
+			boAbyjJmN+g/2t1UA5NDhlIvGUgGoteHmh+zXeAoKEM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/ja.lproj/main.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8EwxyuMFAzZ+oisyzXhbWz/fDN0=
+			</data>
+			<key>hash2</key>
+			<data>
+			JP2zLIoN5CCTXv+vRIfM4NSDGLQ0snC9RAzvx8xKFO0=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Resources/main.command</key>
 		<dict>
