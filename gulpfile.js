@@ -10,7 +10,7 @@ const APP_VERSION = require('./package.json').version;
 gulp.task('doc', ['_readme', '_version']);
 
 // readme
-gulp.task('_readme', ['_readme:pdf']);
+gulp.task('_readme', ['_readme:pdf', '_readme-ja:pdf']);
 gulp.task('_readme:pdf', () => {
   return gulp
     .src('README.md')
@@ -29,6 +29,29 @@ gulp.task('_readme:pdf', () => {
     .pipe(
       rename({
         basename: 'README',
+        extname: '.pdf',
+      })
+    )
+    .pipe(gulp.dest('build'));
+});
+gulp.task('_readme-ja:pdf', () => {
+  return gulp
+    .src('README-ja.md')
+    .pipe(
+      toc({
+        linkify: function(content) {
+          return content;
+        },
+      })
+    )
+    .pipe(
+      markdownPdf({
+        cssPath: 'readme.css',
+      })
+    )
+    .pipe(
+      rename({
+        basename: 'README-ja',
         extname: '.pdf',
       })
     )
