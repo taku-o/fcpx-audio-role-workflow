@@ -1,6 +1,6 @@
 {
   "name": "fcpx-audio-role-workflow",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MacOS X Folder Action, to append Audio Role to wav file for \"Final Cut Pro X\".",
   "main": "index.js",
   "scripts": {
