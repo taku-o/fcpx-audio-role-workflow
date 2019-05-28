@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>428</string>
+	<string>444.7</string>
 	<key>AMApplicationVersion</key>
-	<string>2.7</string>
+	<string>2.8</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -103,7 +103,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:170.000000</string>
+				<string>492.000000:170.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -217,7 +217,7 @@
 					</data>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Filter_Finder_Items_2</string>
+				<string>com.apple.Automator.FilterFinderItems2</string>
 				<key>CFBundleVersion</key>
 				<string>2.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -275,7 +275,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:355.000000</string>
+				<string>492.000000:355.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -380,7 +380,7 @@
 					</data>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Filter_Finder_Items_2</string>
+				<string>com.apple.Automator.FilterFinderItems2</string>
 				<key>CFBundleVersion</key>
 				<string>2.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -438,7 +438,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:515.000000</string>
+				<string>492.000000:515.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -484,7 +484,7 @@
 				<key>AMRequiredResources</key>
 				<array/>
 				<key>ActionBundlePath</key>
-				<string>/Users/taku-o/Library/Automator/FCPX Audio Role Append.action</string>
+				<string>/Users/taku.omi/Library/Automator/FCPX Audio Role Append.action</string>
 				<key>ActionName</key>
 				<string>FCPX Audio Role Append</string>
 				<key>ActionParameters</key>
@@ -541,9 +541,183 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:731.000000</string>
+				<string>492.000000:731.000000</string>
 				<key>nibPath</key>
-				<string>/Users/taku-o/Library/Automator/FCPX Audio Role Append.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/Users/taku.omi/Library/Automator/FCPX Audio Role Append.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0.3</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<dict/>
+					<key>CheckedForUserDefaultShell</key>
+					<dict/>
+					<key>inputMethod</key>
+					<dict/>
+					<key>shell</key>
+					<dict/>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.string</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run Shell Script.action</string>
+				<key>ActionName</key>
+				<string>シェルスクリプトを実行</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>COMMAND_STRING</key>
+					<string>while read line; do
+    echo "${line}." &gt;&gt; /tmp/fcpx-append.txt
+done
+</string>
+					<key>CheckedForUserDefaultShell</key>
+					<true/>
+					<key>inputMethod</key>
+					<integer>0</integer>
+					<key>shell</key>
+					<string>/bin/zsh</string>
+					<key>source</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.RunShellScript</string>
+				<key>CFBundleVersion</key>
+				<string>2.0.3</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunShellScriptAction</string>
+				<key>InputUUID</key>
+				<string>1BA43826-8C46-40A3-AB02-26B70ADEA2A6</string>
+				<key>Keywords</key>
+				<array>
+					<string>シェル</string>
+					<string>スクリプト</string>
+					<string>コマンド</string>
+					<string>実行</string>
+					<string>UNIX</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>985892FB-348B-48C0-8CE4-1CD457B84B47</string>
+				<key>UUID</key>
+				<string>4717C5D5-0D2E-4E35-91A4-9DFE832EEF4C</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>inputMethod</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>CheckedForUserDefaultShell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>COMMAND_STRING</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<string>/bin/sh</string>
+						<key>name</key>
+						<string>shell</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>492.000000:914.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -551,32 +725,37 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>01E8347F-E6CD-4044-99F3-7043E29586FC</key>
-		<dict>
-			<key>from</key>
-			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
-			<key>to</key>
-			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
-		</dict>
-		<key>3215986B-ACA3-4330-839C-77E46DA50E27</key>
+		<key>0BF1374C-0513-435F-B55F-3C5F05C724E5</key>
 		<dict>
 			<key>from</key>
 			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
 			<key>to</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
 		</dict>
-		<key>EE8D5048-F3F0-4246-B0CB-336E5FA0A8C8</key>
+		<key>7C93FA72-F85A-43D7-B08B-FE982DA43A28</key>
+		<dict>
+			<key>from</key>
+			<string>BCD12009-8FDC-4D60-9B8C-20CE021BED57 - BCD12009-8FDC-4D60-9B8C-20CE021BED57</string>
+			<key>to</key>
+			<string>4717C5D5-0D2E-4E35-91A4-9DFE832EEF4C - 4717C5D5-0D2E-4E35-91A4-9DFE832EEF4C</string>
+		</dict>
+		<key>8717DD64-33E2-4AE8-9018-62A67434B2C6</key>
 		<dict>
 			<key>from</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
 			<key>to</key>
 			<string>BCD12009-8FDC-4D60-9B8C-20CE021BED57 - BCD12009-8FDC-4D60-9B8C-20CE021BED57</string>
 		</dict>
+		<key>DA0D30AE-E9FD-4631-9517-34163F9FE436</key>
+		<dict>
+			<key>from</key>
+			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
+			<key>to</key>
+			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
+		</dict>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
-		<key>folderActionFolderPath</key>
-		<string>~/Movies/splatoon-20190504/voice_zz</string>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.folderAction</string>
 	</dict>
