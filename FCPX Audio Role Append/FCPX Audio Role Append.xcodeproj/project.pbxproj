@@ -281,13 +281,16 @@
 		DC5A02E32297133100935252 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 52QJ97GWTE;
 				INFOPLIST_FILE = "FCPX Audio Role Append/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.nanasi.FCPX-Audio-Role-Append";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nanasi.fcpx.automator.FCPX-Audio-Role-Append";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = action;
 			};
 			name = Debug;
@@ -295,13 +298,16 @@
 		DC5A02E42297133100935252 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 52QJ97GWTE;
 				INFOPLIST_FILE = "FCPX Audio Role Append/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Automator";
 				OTHER_OSAFLAGS = "-x -t 0 -c 0";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.nanasi.FCPX-Audio-Role-Append";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.nanasi.fcpx.automator.FCPX-Audio-Role-Append";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = action;
 			};
 			name = Release;
