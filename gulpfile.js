@@ -7,7 +7,7 @@ const toc = require('gulp-markdown-toc');
 const APP_VERSION = require('./package.json').version;
 
 // doc
-gulp.task('doc', ['_readme', '_version']);
+gulp.task('doc', ['_readme', '_readme-ja', '_version']);
 
 // readme
 gulp.task('_readme', ['_readme:pdf']);
@@ -29,6 +29,31 @@ gulp.task('_readme:pdf', () => {
     .pipe(
       rename({
         basename: 'README',
+        extname: '.pdf',
+      })
+    )
+    .pipe(gulp.dest('build'));
+});
+
+gulp.task('_readme-ja', ['_readme-ja:pdf']);
+gulp.task('_readme-ja:pdf', () => {
+  return gulp
+    .src('README-ja.md')
+    .pipe(
+      toc({
+        linkify: function(content) {
+          return content;
+        },
+      })
+    )
+    .pipe(
+      markdownPdf({
+        cssPath: 'readme.css',
+      })
+    )
+    .pipe(
+      rename({
+        basename: 'README-ja',
         extname: '.pdf',
       })
     )
