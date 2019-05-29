@@ -4,6 +4,16 @@
 Folder Action to convert wav files having audio role,  
 for Final Cut Pro X (10.3, and later).  
 
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/folder-action-mini.gif" width="400">
+
+## Contents
+| file                          | description                                            |
+| :---------------------------- | :----------------------------------------------------- |
+| FCPX Audio Role Append.action | AutoMator Action to convert wav file.                  |
+| Folder Actions Templates      | "Folder Action" examples.                              |
+| fcpx-audio-role-append        | Command Line Tool, convert wav file having ixml chunk. |
+| README.pdf                    | this file.                                             |
+
 ## Usage, Setup.
 ##### 1. install "FCPX Audio Role Append.action".
 first, click "FCPX Audio Role Append.action",  
@@ -43,12 +53,4 @@ Command Line Tool, adding ixml chunk to wav file.
 ```sh
 ./fcpx-audio-role-append -i in.wav -o out.wav -t trackName
 ```
-
-##### FCPX Audio Role Append.action
-AutoMator Action to convert wav file.  
-this action is used in Mac AutoMator workflow.  
-
-##### Folder Actions Templates
-"Folder Action" examples.  
-
 

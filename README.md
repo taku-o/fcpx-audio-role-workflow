@@ -4,6 +4,8 @@
 Folder Action to convert wav files having audio role,  
 for Final Cut Pro X (10.3, and later).  
 
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/folder-action-mini.gif" width="400">
+
 ## Contents
 | file                          | description                                            |
 | :---------------------------- | :----------------------------------------------------- |
