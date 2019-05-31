@@ -20,7 +20,7 @@ gulp doc
 ##### 5. sign dmg file.
 
 ```sh
-codesign -s "Developer ID Application: xxxxxx" --keychain "/Users/$USER/Library/Keychains/login.keychain" fcps-audio-role-workflow.dmg
+codesign -s "Developer ID Application: Taku Omi (52QJ97GWTE)" --keychain "/Users/$USER/Library/Keychains/login.keychain" fcps-audio-role-workflow.dmg
 ```
 
 ##### 6. post release file to github.
