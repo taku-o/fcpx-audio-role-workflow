@@ -48,9 +48,13 @@ wav file will be mapped to audio role.
 
 ## Tools
 ##### fcpx-audio-role-append usage.
-Command Line Tool, convert wav file having ixml chunk.
+Command Line Tool, convert wav file having ixml chunk.  
 
 ```sh
 ./fcpx-audio-role-append -i in.wav -o out.wav -t trackName
 ```
+
+## Known Issue
+- failed to convert "multiple channel" wav audio file.
+
 

@@ -1,45 +1,46 @@
 # FCPX Audio Role Append Folder Action.
 
 ## Description
-Folder Action to convert wav files having audio role,  
-for Final Cut Pro X (10.3, and later).  
+wavファイルをオーディオロール付きに変換するフォルダーアクションです。  
+Final Cut Pro Xの10.3以降で利用できます。  
 
 <img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/folder-action-mini.gif" width="400">
 
 ## Contents
 | file                          | description                                            |
 | :---------------------------- | :----------------------------------------------------- |
-| FCPX Audio Role Append.action | AutoMator Action to convert wav file.                  |
-| Folder Actions Templates      | "Folder Action" examples.                              |
-| fcpx-audio-role-append        | Command Line Tool, convert wav file having ixml chunk. |
+| FCPX Audio Role Append.action | 音声ファイルを変換するAutoMatorのAction。              |
+| Folder Actions Templates      | フォルダーアクションのサンプル、利用例。               |
+| fcpx-audio-role-append        | 音声ファイルを変換するコマンドラインツール。           |
 | README.pdf                    | this file.                                             |
 
 ## Usage, Setup.
 ##### 1. install "FCPX Audio Role Append.action".
-first, click "FCPX Audio Role Append.action",  
-and install it.  
-this Action will be used by Folder Action.  
+まず初めに。  
+"FCPX Audio Role Append.action"をクリックして、インストールしましょう。  
+このActionはフォルダーアクションから利用されます。  
 
 ##### 2. edit "Folder Actions Templates/Audio Role Append.workflow".
-click "Audio Role Append.workflow" in "Folder Actions Templates",  
-and edit it.  
+"Folder Actions Templates"に入っている、  
+"Audio Role Append.workflow"を編集します。  
 
 ##### 3. install editted "Audio Role Append.workflow".
-click "Audio Role Append.workflow" in "Folder Actions Templates",  
-and install it.  
+"Audio Role Append.workflow"を編集したら、  
+再度クリックして、"Audio Role Append.workflow"をインストールします。  
 
 ##### 4. select target folder, and set installed folder action.
-select converting folder with "Finder" Application,  
-and right click to set "Folder Action".  
+フォルダーアクションを有効にしたいフォルダーを選択して、  
+"フォルダーアクション設定"から、  
+"Audio Role Append"アクションを有効にしましょう。  
 
 ##### 5. drop wav file to "Folder Action" set folder.
-drop converting wav file to folder.  
-a little lator,  
-dropped wav file will be converted by "Folder Action".  
+wavファイルをフォルダーに入れてみて、  
+しばらくして、  
+wavファイルが"フォルダーアクション"で変換されるのを確認してください。  
 
 ##### 6. import generated wav file to Final Cut Pro X.
-import generated wav file to Final Cut Pro X.  
-wav file will be mapped to audio role.  
+作られたwavファイルをFinal Cut Pro Xに入れると、  
+オーディオロールが設定されているのが分かると思います。  
 
 ## Uninstall
 - unset "Folder Action".
@@ -47,10 +48,15 @@ wav file will be mapped to audio role.
 - remove "~/Library/Automator/FCPX\ Audio\ Role\ Append.action".
 
 ## Tools
-##### fcpx-audio-role-append
-Command Line Tool, adding ixml chunk to wav file.
+##### fcpx-audio-role-append usage.
+Command Line Tool, convert wav file having ixml chunk.  
 
 ```sh
 ./fcpx-audio-role-append -i in.wav -o out.wav -t trackName
 ```
+
+## Known Issue
+- 複数チャネルを持ったwavファイルを正しく変換できない問題がある。
+    - (例えば、CeVIO)
+
 
