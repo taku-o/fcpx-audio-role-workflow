@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>428</string>
+	<string>444.7</string>
 	<key>AMApplicationVersion</key>
-	<string>2.7</string>
+	<string>2.8</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -103,7 +103,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>326.000000:170.000000</string>
+				<string>301.500000:170.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -208,7 +208,7 @@
 					</data>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Filter_Finder_Items_2</string>
+				<string>com.apple.Automator.FilterFinderItems2</string>
 				<key>CFBundleVersion</key>
 				<string>2.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -266,7 +266,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>326.000000:330.000000</string>
+				<string>301.500000:330.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -371,7 +371,7 @@
 					</data>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Filter_Finder_Items_2</string>
+				<string>com.apple.Automator.FilterFinderItems2</string>
 				<key>CFBundleVersion</key>
 				<string>2.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -429,7 +429,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>326.000000:490.000000</string>
+				<string>301.500000:490.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -631,7 +631,7 @@ done
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>326.000000:673.000000</string>
+				<string>301.500000:673.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -803,7 +803,7 @@ done
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>326.000000:856.000000</string>
+				<string>301.500000:856.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -813,33 +813,33 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1BCDB36D-F16F-4589-8C8A-BB6B05301E98</key>
-		<dict>
-			<key>from</key>
-			<string>442769A3-8CAB-440E-82DA-8EA78420A0C3 - 442769A3-8CAB-440E-82DA-8EA78420A0C3</string>
-			<key>to</key>
-			<string>1604EAF0-8031-4BB9-93F9-336AD14F7BF0 - 1604EAF0-8031-4BB9-93F9-336AD14F7BF0</string>
-		</dict>
-		<key>5BE18B92-7F0E-408A-9E4E-FB8CC24F5A77</key>
+		<key>303FF396-FDA7-4023-8857-6F8843D0378A</key>
 		<dict>
 			<key>from</key>
 			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
 			<key>to</key>
 			<string>442769A3-8CAB-440E-82DA-8EA78420A0C3 - 442769A3-8CAB-440E-82DA-8EA78420A0C3</string>
 		</dict>
-		<key>6A621104-61AF-42A8-A154-EF7F7E04EB4F</key>
-		<dict>
-			<key>from</key>
-			<string>1604EAF0-8031-4BB9-93F9-336AD14F7BF0 - 1604EAF0-8031-4BB9-93F9-336AD14F7BF0</string>
-			<key>to</key>
-			<string>94AF4BEC-2499-479F-90A6-C0EAB0A62F5D - 94AF4BEC-2499-479F-90A6-C0EAB0A62F5D</string>
-		</dict>
-		<key>7FE67ABD-18A6-4597-ABDC-8C6BD7D457B5</key>
+		<key>4D735544-B858-4750-A41B-CF8B4D28C92D</key>
 		<dict>
 			<key>from</key>
 			<string>D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020 - D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020</string>
 			<key>to</key>
 			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
+		</dict>
+		<key>55BAEE0A-907D-4D42-9315-49E3E9E4EAD7</key>
+		<dict>
+			<key>from</key>
+			<string>442769A3-8CAB-440E-82DA-8EA78420A0C3 - 442769A3-8CAB-440E-82DA-8EA78420A0C3</string>
+			<key>to</key>
+			<string>1604EAF0-8031-4BB9-93F9-336AD14F7BF0 - 1604EAF0-8031-4BB9-93F9-336AD14F7BF0</string>
+		</dict>
+		<key>DE65F7AB-706B-4C52-8A05-E964CA64F086</key>
+		<dict>
+			<key>from</key>
+			<string>1604EAF0-8031-4BB9-93F9-336AD14F7BF0 - 1604EAF0-8031-4BB9-93F9-336AD14F7BF0</string>
+			<key>to</key>
+			<string>94AF4BEC-2499-479F-90A6-C0EAB0A62F5D - 94AF4BEC-2499-479F-90A6-C0EAB0A62F5D</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
