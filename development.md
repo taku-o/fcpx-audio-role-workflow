@@ -21,6 +21,10 @@ gulp doc
 
 ```sh
 codesign -s "Developer ID Application: Taku Omi (52QJ97GWTE)" --keychain "/Users/$USER/Library/Keychains/login.keychain" fcps-audio-role-workflow.dmg
+
+or
+
+gulp codesign
 ```
 
 ##### 6. post release file to github.

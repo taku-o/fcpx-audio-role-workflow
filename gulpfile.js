@@ -1,3 +1,4 @@
+const exec = require('child_process').exec;
 const fs = require('fs');
 const gulp = require('gulp');
 const markdownPdf = require('gulp-markdown-pdf');
@@ -67,4 +68,19 @@ gulp.task('_version', (cb) => {
   });
 });
 
+// codesign
+gulp.task('codesign', (cb) => {
+  const DEVELOPER_ID_APPLICATION_KEY = "Developer ID Application: Taku Omi (52QJ97GWTE)";
+  const APP_PATH = "*.dmg";
+  exec(
+    '/usr/bin/codesign' +
+      ` -s "${DEVELOPER_ID_APPLICATION_KEY}" \
+        --deep \
+        --keychain "/Users/${process.env.USER}/Library/Keychains/login.keychain" \
+        ${APP_PATH}`,
+    (err, stdout, stderr) => {
+      cb(err);
+    }
+  );
+});
 
