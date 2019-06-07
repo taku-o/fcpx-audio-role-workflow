@@ -4,6 +4,10 @@
 wavファイルをオーディオロール付きに変換するフォルダーアクションです。  
 Final Cut Pro Xの10.3以降で利用できます。  
 
+see also,   
+Final Cut Pro X: 読み込み時に割り当てられるオーディオロールを設定する  
+https://support.apple.com/kb/PH26179
+
 <img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/folder-action-mini.gif" width="400">
 
 ## Contents
