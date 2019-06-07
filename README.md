@@ -24,26 +24,30 @@ first, click "FCPX Audio Role Append.action",
 and install it.  
 this Action will be used by Folder Action.  
 
-TODO image install
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/click-action.png" width="400">
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/dialog-install-action.png" width="400">
 
 ##### 2. edit "Folder Actions Templates/Audio Role Append.workflow".
 click "Audio Role Append.workflow" in "Folder Actions Templates",  
 and edit it.  
 
-TODO image edit
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/click-workflow.png" width="400">
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/dialog-edit-or-install-workflow.png" width="400">
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/set-folder-of-workflow.png" width="400">
 
 ##### 3. install editted "Audio Role Append.workflow".
 click "Audio Role Append.workflow" in "Folder Actions Templates",  
 and install it.  
 
-TODO image install
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/click-workflow.png" width="400">
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/dialog-edit-or-install-workflow.png" width="400">
 
 ##### 4. select target folder, and set installed folder action.
 select converting folder with "Finder" Application,  
 and right click to set "Folder Action".  
 
-TODO image select, folder action
-TODO image folder action
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/set-folder-action.png" width="400">
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/select-folder-action-list.png" width="400">
 
 ##### 5. drop wav file to "Folder Action" set folder.
 drop converting wav file to folder.  

@@ -24,18 +24,31 @@ https://support.apple.com/kb/PH26179
 "FCPX Audio Role Append.action"をクリックして、インストールしましょう。  
 このActionはフォルダーアクションから利用されます。  
 
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/click-action.png" width="400">
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/dialog-install-action.png" width="400">
+
 ##### 2. edit "Folder Actions Templates/Audio Role Append.workflow".
 "Folder Actions Templates"に入っている、  
 "Audio Role Append.workflow"を編集します。  
+
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/click-workflow.png" width="400">
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/dialog-edit-or-install-workflow.png" width="400">
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/set-folder-of-workflow.png" width="400">
 
 ##### 3. install editted "Audio Role Append.workflow".
 "Audio Role Append.workflow"を編集したら、  
 再度クリックして、"Audio Role Append.workflow"をインストールします。  
 
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/click-workflow.png" width="400">
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/dialog-edit-or-install-workflow.png" width="400">
+
 ##### 4. select target folder, and set installed folder action.
 フォルダーアクションを有効にしたいフォルダーを選択して、  
 "フォルダーアクション設定"から、  
 "Audio Role Append"アクションを有効にしましょう。  
+
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/set-folder-action.png" width="400">
+<img class="border" src="https://raw.githubusercontent.com/taku-o/fcpx-audio-role-workflow/master/images/select-folder-action-list.png" width="400">
 
 ##### 5. drop wav file to "Folder Action" set folder.
 wavファイルをフォルダーに入れてみて、  
