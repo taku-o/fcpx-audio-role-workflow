@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>428</string>
+	<string>444.7</string>
 	<key>AMApplicationVersion</key>
-	<string>2.7</string>
+	<string>2.8</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -103,7 +103,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>263.000000:170.000000</string>
+				<string>301.500000:170.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -217,7 +217,7 @@
 					</data>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Filter_Finder_Items_2</string>
+				<string>com.apple.Automator.FilterFinderItems2</string>
 				<key>CFBundleVersion</key>
 				<string>2.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -275,7 +275,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>263.000000:355.000000</string>
+				<string>301.500000:355.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -380,7 +380,7 @@
 					</data>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.Filter_Finder_Items_2</string>
+				<string>com.apple.Automator.FilterFinderItems2</string>
 				<key>CFBundleVersion</key>
 				<string>2.1.1</string>
 				<key>CanShowSelectedItemsWhenRun</key>
@@ -438,7 +438,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>263.000000:515.000000</string>
+				<string>301.500000:515.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Filter Finder Items 2.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -484,7 +484,7 @@
 				<key>AMRequiredResources</key>
 				<array/>
 				<key>ActionBundlePath</key>
-				<string>/Users/taku-o/Library/Automator/FCPX Audio Role Append.action</string>
+				<string>/Users/taku.omi/Library/Automator/FCPX Audio Role Append.action</string>
 				<key>ActionName</key>
 				<string>オーディオロールを追加 (FCPX)</string>
 				<key>ActionParameters</key>
@@ -541,9 +541,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>263.000000:731.000000</string>
+				<string>301.500000:731.000000</string>
 				<key>nibPath</key>
-				<string>/Users/taku-o/Library/Automator/FCPX Audio Role Append.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/Users/taku.omi/Library/Automator/FCPX Audio Role Append.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -713,7 +713,7 @@ done
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>263.000000:914.000000</string>
+				<string>301.500000:914.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -723,33 +723,33 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>29572FDA-6474-4A06-BDDD-EB17A207F80D</key>
+		<key>60A2CF6B-9A3F-497A-BAAE-A345874B909F</key>
+		<dict>
+			<key>from</key>
+			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
+			<key>to</key>
+			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
+		</dict>
+		<key>9E49DA34-4C6B-43D0-9520-9AD0AFC51AE7</key>
+		<dict>
+			<key>from</key>
+			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
+			<key>to</key>
+			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
+		</dict>
+		<key>9F2A7418-1973-4933-907A-7C60BB5B92EB</key>
 		<dict>
 			<key>from</key>
 			<string>1AC64BF9-CBD3-4B7F-A6D8-92C71701B986 - 1AC64BF9-CBD3-4B7F-A6D8-92C71701B986</string>
 			<key>to</key>
 			<string>4717C5D5-0D2E-4E35-91A4-9DFE832EEF4C - 4717C5D5-0D2E-4E35-91A4-9DFE832EEF4C</string>
 		</dict>
-		<key>845FC73D-DAA3-49EF-8A82-27F02454DC2B</key>
+		<key>D26646DA-E2AB-4753-81C3-39AD17E39749</key>
 		<dict>
 			<key>from</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
 			<key>to</key>
 			<string>1AC64BF9-CBD3-4B7F-A6D8-92C71701B986 - 1AC64BF9-CBD3-4B7F-A6D8-92C71701B986</string>
-		</dict>
-		<key>EB89A70A-E68D-4D9E-93C0-14E15FBAB8E6</key>
-		<dict>
-			<key>from</key>
-			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
-			<key>to</key>
-			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
-		</dict>
-		<key>F81FDDAD-E971-46F0-8240-8A359B6579AE</key>
-		<dict>
-			<key>from</key>
-			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
-			<key>to</key>
-			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
