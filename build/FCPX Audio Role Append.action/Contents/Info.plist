@@ -82,7 +82,7 @@
 		<string>(* Warning message presented to user goes here. *)</string>
 	</dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17G6030</string>
+	<string>17G7024</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleIdentifier</key>

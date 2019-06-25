@@ -26,8 +26,8 @@ while read line; do
         echo "target: ${line} already existing. skip." 1>&2
     else
         OUTPUT="${prefix}${line%.wav}${suffix}.wav"
-        echo "${EXE_PATH}" -i "${line}" -t "${audioRoleName}" -o "${OUTPUT}" 1>&2
-        "${EXE_PATH}" -i "${line}" -t "${audioRoleName}" -o "${OUTPUT}"
+        echo "${EXE_PATH}" encode -i "${line}" -t "${audioRoleName}" -o "${OUTPUT}" 1>&2
+        "${EXE_PATH}" encode -i "${line}" -t "${audioRoleName}" -o "${OUTPUT}"
     fi
 done
 
