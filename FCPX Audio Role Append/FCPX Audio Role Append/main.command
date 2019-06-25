@@ -14,7 +14,7 @@ echo "audioRoleName: $audioRoleName" 1>&2
 EXE_PATH="${HOME}/Library/Automator/FCPX Audio Role Append.action/Contents/Resources/fcpx-audio-role-append"
 
 if [ -n "$audioRoleName" ]; then
-    ;
+    :
 else
     echo "audioRoleName is not set." 1>&2
     exit 1
