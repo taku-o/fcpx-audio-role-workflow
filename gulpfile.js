@@ -68,6 +68,15 @@ gulp.task('_version', (cb) => {
   });
 });
 
+// zip
+gulp.task('zip', (cb) => {
+  exec(
+    'ditto -c -k --sequesterRsrc --keepParent build build.zip',
+    (err, stdout, stderr) => {
+      cb(err);
+    }
+  );
+});
 // codesign
 gulp.task('codesign', (cb) => {
   const DEVELOPER_ID_APPLICATION_KEY = "Developer ID Application: Taku Omi (52QJ97GWTE)";
