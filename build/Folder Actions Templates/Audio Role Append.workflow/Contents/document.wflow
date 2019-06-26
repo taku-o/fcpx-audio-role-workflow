@@ -723,37 +723,39 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>60A2CF6B-9A3F-497A-BAAE-A345874B909F</key>
-		<dict>
-			<key>from</key>
-			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
-			<key>to</key>
-			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
-		</dict>
-		<key>9E49DA34-4C6B-43D0-9520-9AD0AFC51AE7</key>
-		<dict>
-			<key>from</key>
-			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
-			<key>to</key>
-			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
-		</dict>
-		<key>9F2A7418-1973-4933-907A-7C60BB5B92EB</key>
+		<key>312AE3F3-8186-4C7C-A1AB-A04C8C44F760</key>
 		<dict>
 			<key>from</key>
 			<string>1AC64BF9-CBD3-4B7F-A6D8-92C71701B986 - 1AC64BF9-CBD3-4B7F-A6D8-92C71701B986</string>
 			<key>to</key>
 			<string>4717C5D5-0D2E-4E35-91A4-9DFE832EEF4C - 4717C5D5-0D2E-4E35-91A4-9DFE832EEF4C</string>
 		</dict>
-		<key>D26646DA-E2AB-4753-81C3-39AD17E39749</key>
+		<key>34CDB5BD-E495-4BF4-A895-DF62CD81102C</key>
+		<dict>
+			<key>from</key>
+			<string>E73B937C-B940-4633-91EF-906362A92378 - E73B937C-B940-4633-91EF-906362A92378</string>
+			<key>to</key>
+			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
+		</dict>
+		<key>4538E4CB-4402-483B-AA94-3EAB7A12C2CF</key>
 		<dict>
 			<key>from</key>
 			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
 			<key>to</key>
 			<string>1AC64BF9-CBD3-4B7F-A6D8-92C71701B986 - 1AC64BF9-CBD3-4B7F-A6D8-92C71701B986</string>
 		</dict>
+		<key>B017D2B9-8FA5-40B2-B261-9C1850BDD089</key>
+		<dict>
+			<key>from</key>
+			<string>EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0 - EB463D81-2FF9-4DE8-AA91-3469B8A1A9A0</string>
+			<key>to</key>
+			<string>1CD1ACA7-7AE9-4306-8170-AED49D4949E0 - 1CD1ACA7-7AE9-4306-8170-AED49D4949E0</string>
+		</dict>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
+		<key>folderActionFolderPath</key>
+		<string>~/Desktop/fcpx-audio-role-workflow/test-workflow</string>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.folderAction</string>
 	</dict>

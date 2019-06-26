@@ -813,37 +813,39 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>303FF396-FDA7-4023-8857-6F8843D0378A</key>
-		<dict>
-			<key>from</key>
-			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
-			<key>to</key>
-			<string>442769A3-8CAB-440E-82DA-8EA78420A0C3 - 442769A3-8CAB-440E-82DA-8EA78420A0C3</string>
-		</dict>
-		<key>4D735544-B858-4750-A41B-CF8B4D28C92D</key>
-		<dict>
-			<key>from</key>
-			<string>D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020 - D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020</string>
-			<key>to</key>
-			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
-		</dict>
-		<key>55BAEE0A-907D-4D42-9315-49E3E9E4EAD7</key>
-		<dict>
-			<key>from</key>
-			<string>442769A3-8CAB-440E-82DA-8EA78420A0C3 - 442769A3-8CAB-440E-82DA-8EA78420A0C3</string>
-			<key>to</key>
-			<string>1604EAF0-8031-4BB9-93F9-336AD14F7BF0 - 1604EAF0-8031-4BB9-93F9-336AD14F7BF0</string>
-		</dict>
-		<key>DE65F7AB-706B-4C52-8A05-E964CA64F086</key>
+		<key>24A14EED-C629-45EC-A1AE-252F8A06611B</key>
 		<dict>
 			<key>from</key>
 			<string>1604EAF0-8031-4BB9-93F9-336AD14F7BF0 - 1604EAF0-8031-4BB9-93F9-336AD14F7BF0</string>
 			<key>to</key>
 			<string>94AF4BEC-2499-479F-90A6-C0EAB0A62F5D - 94AF4BEC-2499-479F-90A6-C0EAB0A62F5D</string>
 		</dict>
+		<key>5D3D5FAB-7FE7-4EA9-B580-3E4E572421EB</key>
+		<dict>
+			<key>from</key>
+			<string>D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020 - D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020</string>
+			<key>to</key>
+			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
+		</dict>
+		<key>835CAFC4-8F51-4EDD-A5AD-B6DE3820F70A</key>
+		<dict>
+			<key>from</key>
+			<string>263DCBBD-454F-4570-9794-7920D269F64C - 263DCBBD-454F-4570-9794-7920D269F64C</string>
+			<key>to</key>
+			<string>442769A3-8CAB-440E-82DA-8EA78420A0C3 - 442769A3-8CAB-440E-82DA-8EA78420A0C3</string>
+		</dict>
+		<key>BB81DA99-5D55-4B38-96D9-F135E89DE6C7</key>
+		<dict>
+			<key>from</key>
+			<string>442769A3-8CAB-440E-82DA-8EA78420A0C3 - 442769A3-8CAB-440E-82DA-8EA78420A0C3</string>
+			<key>to</key>
+			<string>1604EAF0-8031-4BB9-93F9-336AD14F7BF0 - 1604EAF0-8031-4BB9-93F9-336AD14F7BF0</string>
+		</dict>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
+		<key>folderActionFolderPath</key>
+		<string>~/Desktop/fcpx-audio-role-workflow/test-workflow</string>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.folderAction</string>
 	</dict>
