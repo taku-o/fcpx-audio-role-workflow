@@ -103,7 +103,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:170.000000</string>
+				<string>326.000000:170.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -283,7 +283,7 @@ done
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:353.000000</string>
+				<string>326.000000:353.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -365,8 +365,8 @@ while read line; do
         if [ -e "${prefix}${line%.wav}${suffix}.wav" ]; then
             echo "target: ${line} already existing. skip." 1&gt;&amp;2
         else
-            echo "${EXE_PATH}" -i "${line}" -t "${audioRoleName}" -o "${prefix}${line%.wav}${suffix}.wav" 1&gt;&amp;2
-            "${EXE_PATH}" -i "${line}" -t "${audioRoleName}" -o "${prefix}${line%.wav}${suffix}.wav"
+            echo "${EXE_PATH}" encode -i "${line}" -t "${audioRoleName}" -o "${prefix}${line%.wav}${suffix}.wav" 1&gt;&amp;2
+            "${EXE_PATH}" encode -i "${line}" -t "${audioRoleName}" -o "${prefix}${line%.wav}${suffix}.wav"
         fi
     else
         echo "audioRoleName is not set." 1&gt;&amp;2
@@ -486,7 +486,7 @@ done
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:536.000000</string>
+				<string>326.000000:536.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -658,7 +658,7 @@ done
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>301.500000:719.000000</string>
+				<string>326.000000:719.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Japanese.lproj/main.nib</string>
 			</dict>
@@ -668,26 +668,26 @@ done
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1BEC813E-C06C-4588-88E0-87A18A55ED30</key>
+		<key>39BA59BC-4F75-4BBB-A930-EB0115C64685</key>
 		<dict>
 			<key>from</key>
-			<string>A4C845D5-7E42-4C54-98B3-6F336F3C691A - A4C845D5-7E42-4C54-98B3-6F336F3C691A</string>
-			<key>to</key>
 			<string>1604EAF0-8031-4BB9-93F9-336AD14F7BF0 - 1604EAF0-8031-4BB9-93F9-336AD14F7BF0</string>
+			<key>to</key>
+			<string>94AF4BEC-2499-479F-90A6-C0EAB0A62F5D - 94AF4BEC-2499-479F-90A6-C0EAB0A62F5D</string>
 		</dict>
-		<key>6165A349-46C6-461D-AD06-6EC3BF4A9D00</key>
+		<key>44FCFD26-96E4-4427-9914-CF934AD04F5B</key>
 		<dict>
 			<key>from</key>
 			<string>D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020 - D6C9020E-1C14-4F7C-B6CC-DB3C66ED0020</string>
 			<key>to</key>
 			<string>A4C845D5-7E42-4C54-98B3-6F336F3C691A - A4C845D5-7E42-4C54-98B3-6F336F3C691A</string>
 		</dict>
-		<key>BA823B55-9B87-40D6-A148-5B17B8BAD8BA</key>
+		<key>85585745-6096-42B7-A5AA-C56EDFA8B1BD</key>
 		<dict>
 			<key>from</key>
-			<string>1604EAF0-8031-4BB9-93F9-336AD14F7BF0 - 1604EAF0-8031-4BB9-93F9-336AD14F7BF0</string>
+			<string>A4C845D5-7E42-4C54-98B3-6F336F3C691A - A4C845D5-7E42-4C54-98B3-6F336F3C691A</string>
 			<key>to</key>
-			<string>94AF4BEC-2499-479F-90A6-C0EAB0A62F5D - 94AF4BEC-2499-479F-90A6-C0EAB0A62F5D</string>
+			<string>1604EAF0-8031-4BB9-93F9-336AD14F7BF0 - 1604EAF0-8031-4BB9-93F9-336AD14F7BF0</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
